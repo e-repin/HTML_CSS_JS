@@ -1,0 +1,61 @@
+.contentdata{
+    background: rgb(255, 255, 255);
+	
+}
+#button{
+  cursor: pointer;  
+  padding: 5px;
+  margin: 10;
+  width: 100;
+  text-transform: uppercase;
+  vertical-align: middle;
+  background: #30cfc2;
+  border: none;
+  color: #3d3d3d;  
+  border-radius: 5px;
+  
+  transition: all 1s;
+}
+  #button:hover {
+    
+    background: #369988;
+    color: white;
+  }
+
+  #spanValue{
+    width: 100px;
+    height: 100px;     
+    border-radius: 5px;
+    box-shadow: 0 0 3px rgb(34, 88, 79); 
+  }
+  #spanValue:hover{    
+    box-shadow: 0 0 10px rgb(34, 88, 79); 
+  }
+  #mainHeader{
+    background:linear-gradient(rgb(124, 124, 124), rgb(0, 255, 221));
+    color: rgb(56, 56, 56);
+    width: 400;
+    margin: 0px;
+    border: 0px;
+    
+  }
+  .input {
+    border-radius: 5px; 
+    border-color: #6b6b6b;       
+   }
+   #button.buttonGetData{
+       margin:0px;
+   }
+   
+#button.buttonAddItem{
+
+    margin:0px;
+    
+}
+#button.buttonClearAll{
+    margin:20px;
+    
+    
+}
+       
+  
